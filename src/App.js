@@ -11,7 +11,9 @@ function App() {
         <div className="header-content">
           <div className="logo-container">
             <img src={logo} alt="JNV Logo" className="header-logo" />
-            <h1 className="site-title">JNV Alumni</h1>
+            <h1 className="site-title">
+              Jawahar Navodaya Vidyalaya, Palair, Khammam Alumni
+            </h1>
           </div>
           <button
             className="hamburger"
