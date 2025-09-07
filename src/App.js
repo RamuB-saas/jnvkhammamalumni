@@ -55,17 +55,7 @@ function App() {
             </h1>
           </div>
           <div className="header-content">
-            {/*        <button
-              className="hamburger"
-              aria-label="Toggle navigation"
-              aria-expanded={isNavExpanded}
-              onClick={() => setIsNavExpanded((prev) => !prev)}
-            >
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
-            </button> */}
-            <nav className={`nav-menu${isNavExpanded ? " expanded" : ""}`}>
+            <nav className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
               <ul>
                 <li>
                   <button
@@ -132,6 +122,18 @@ function App() {
                 </li>
               </ul>
             </nav>
+            {
+              <button
+                className="hamburger"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+              </button>
+            }
           </div>
         </header>
         <main className="page-content">{renderPage()}</main>
