@@ -185,7 +185,7 @@ function App() {
             <div className="logo-container">
               <img src={logo} className="header-logo" alt="Logo" />
               <h1 className="site-title">
-                Jawahar Navodaya Vidyalaya, Palair, Khammam, Alumni
+                Jawahar Navodaya Vidyalaya, Palair, Khammam - Alumni Association
               </h1>
             </div>
             <button
