@@ -1,4 +1,4 @@
-import RamuBhukya from "../images/members/RamuBhukya.jpeg";
+import RamuBhukya from "../images/members/RamuBhukya.png";
 import Radhakrishna from "../images/members/radhakrishna.jpeg";
 
 const MembersData = () => [
