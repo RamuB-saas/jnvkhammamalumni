@@ -17,6 +17,11 @@ img.member-photo {
   height: 150px;
   object-fit: cover;
 }
+.member-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 600px) {
   .member-card {
     max-width: 100%;

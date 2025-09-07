@@ -8,11 +8,13 @@ const Members = () => {
       <div className="members-list">
         {members.map((member) => (
           <div key={member.id} className="member-card">
-            <img
-              src={member.photo_url}
-              alt={member.name}
-              className="member-photo"
-            />
+            <div className="member-photo-container">
+              <img
+                src={member.photo_url}
+                alt={member.name}
+                className="member-photo"
+              />
+            </div>
             <h3>{member.name}</h3>
             <p>
               <strong>Batch:</strong> {member.batch}
