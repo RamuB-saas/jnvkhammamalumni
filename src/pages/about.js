@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="page-content">
+    <div className="about-page-content">
       <h2>About Us</h2>
       <p>
         Welcome to the Jawahar Navodaya Vidyalaya, Palair, Khammam Alumni
