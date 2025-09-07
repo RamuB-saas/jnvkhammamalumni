@@ -1,9 +1,10 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+// Placeholder components for each page
+import About from "./pages/about";
 
 const Home = () => <h2>Welcome to the Homepage</h2>;
-const About = () => <h2>About Us</h2>;
 const Members = () => <h2>Members Directory</h2>;
 const Events = () => <h2>Upcoming Events</h2>;
 const Gallery = () => <h2>Photo Gallery</h2>;
