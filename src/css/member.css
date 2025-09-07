@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   padding: 20px;
 }
 .member-card {
@@ -17,4 +17,9 @@ img.member-photo {
   width: 150px;
   height: 150px;
   object-fit: cover;
+}
+@media screen and (max-width: 600px) {
+  .member-card {
+    max-width: 100%;
+  }
 }
